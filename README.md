@@ -23,7 +23,7 @@ $ git clone https://github.com/MalikImansaparov/Street-Workout-.git
 
 Navigate to the extracted folder
 ```sh 
-cd weather-app-js
+cd street-workout
 ```
 
 Install the dependencies and modules
