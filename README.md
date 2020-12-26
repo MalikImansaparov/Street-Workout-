@@ -36,32 +36,3 @@ $ npm install
 $ npm start
 ```
 
-## Installation
-### Prerequisites
-- Webpack > v4.43.0
-- npm
-
-### Setup
-Use the [git](https://git-scm.com/downloads) to clone the project to your local machine.
-```sh
-$ git clone https://github.com/MalikImansaparov/Street-Workout-.git
-```
-
-Navigate to the extracted folder
-```sh 
-cd street-workout
-```
-
-Install the dependencies and modules
-```sh
-$ npm install
-```
-
-### Usage
-```sh
-$ npm start
-```
-
-
-
-
