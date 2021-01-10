@@ -12,7 +12,7 @@ Street workout is a creative form of exercise combining elements of gymnastics a
 
 ## Installation
 ### Prerequisites
-- Webpack > v4.43.0
+- Webpack 
 - npm
 
 ### Setup
