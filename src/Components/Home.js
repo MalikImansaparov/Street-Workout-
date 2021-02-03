@@ -57,7 +57,9 @@ export class Home extends React.Component{
                                         3.Engku Mohd (Malaysia) 49
                                     </Card.Text>
                                     <Button variant='warning'>
-                                        <a style={{ textDecoration: 'none',color:'white' }} href='https://wswcf.org/competitions_archive/world-freestyle-championship-2017'>Load more</a>
+                                        <a style={{ textDecoration: 'none',color:'white' }}
+                                           href='https://wswcf.org/competitions_archive/world-freestyle-championship-2017'>
+                                            Load more</a>
                                     </Button>
                                 </Card.Body>
                             </Card>

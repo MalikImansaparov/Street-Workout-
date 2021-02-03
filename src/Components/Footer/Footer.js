@@ -1,5 +1,6 @@
 import React from "react";
 import {Container,Row,Col} from "react-bootstrap";
+import './style.css';
 
 const Footer = () => (
     <Container fluid style={{backgroundColor: '#212529', color:'#fff'}}>
@@ -22,11 +23,11 @@ const Footer = () => (
                <p>@ 2011 – 2020 WSWCF</p>
                <p>All rights reserved</p>
            </Col>
-           <Col md={1} style={{display:'block'}}>
-               <a style={{color:'yellow', fontSize:'26px',margin:'15px'}} href=' https://www.facebook.com/WSWCF'><i className="fa fa-facebook"></i></a>
-               <a style={{color:'yellow', fontSize:'26px',margin:'15px'}} href=' https://www.instagram.com/wswcf/'><i className="fa fa-instagram"></i></a>
-               <a style={{color:'yellow', fontSize:'26px',margin:'15px'}} href=' https://twitter.com/WSWCFofficial'><i className="fa fa-twitter"></i></a>
-               <a style={{color:'yellow', fontSize:'26px',margin:'15px'}} href=' https://www.youtube.com/channel/UCKsaDJNhHw7l8xkH-xfzaIQ?reload=9'><i className="fa fa-youtube"></i></a>
+           <Col md={1} className='social'>
+               <a  href=' https://www.facebook.com/WSWCF'><i className="fa fa-facebook"></i></a>
+               <a  href=' https://www.instagram.com/wswcf/'><i className="fa fa-instagram"></i></a>
+               <a  href=' https://twitter.com/WSWCFofficial'><i className="fa fa-twitter"></i></a>
+               <a  href=' https://www.youtube.com/channel/UCKsaDJNhHw7l8xkH-xfzaIQ?reload=9'><i className="fa fa-youtube"></i></a>
            </Col>
        </Row>
         <Container style={{display:'flex', justifyContent:'center', padding:'10px'}}>
@@ -35,4 +36,4 @@ const Footer = () => (
     </Container>
 )
 export default Footer;
-
+// className='social' }
