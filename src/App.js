@@ -5,7 +5,7 @@ import {Switch, Route, BrowserRouter as Router} from "react-router-dom";
 import {Home} from "./Components/Home";
 import {Champions} from "./Components/Champions";
 import {About} from "./Components/About";
-import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/Footer";
 import Redirect from './Components/Redirect'
 
 

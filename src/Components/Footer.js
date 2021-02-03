@@ -1,6 +1,6 @@
 import React from "react";
 import {Container,Row,Col} from "react-bootstrap";
-import './style.css';
+import '../style.css';
 
 const Footer = () => (
     <Container fluid style={{backgroundColor: '#212529', color:'#fff'}}>
@@ -36,4 +36,4 @@ const Footer = () => (
     </Container>
 )
 export default Footer;
-// className='social' }
+
