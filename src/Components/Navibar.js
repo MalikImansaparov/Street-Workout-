@@ -39,7 +39,7 @@ export default function Navibar(){
                     </Container>
                 </Navbar>
             </Styles>
-             <Modal show={show} onHide={handleClose}>
+             <Modal show={show} onHide={handleClose}> //show, onHide - bootstrap methods
                   <Modal.Header closeButton>
                       <Modal.Title>Log in</Modal.Title>
                   </Modal.Header>
