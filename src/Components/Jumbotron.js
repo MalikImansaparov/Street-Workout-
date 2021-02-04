@@ -22,7 +22,7 @@ const Styles = styled.div`
    position: absolute;
    z-index: -1;
    }`;
-
+// Sticky text overlay on the class jumbo(image)
 const Jumbotron = () => (
     <Styles>
         <Jumbo fluid className='jumbo'>
